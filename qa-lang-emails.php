@@ -23,10 +23,10 @@ return array(
 	'email_header' => "<html><head><style>.body{background:#f5f5f5;padding:8px;text-align:center;font-size:16px;}.main{background:white;width:calc(100% - 32px);max-width:600px;margin:8px auto;padding:12px 8px}.title{color:#002de3}.btn{display:block;width:fit-content;margin:10px auto 20px;padding:8px 16px;border-radius:30px;background:#002de3;color:white !important;text-decoration:none}.err{background:#b00020}.code{font-size:24px;font-weight:bold;background:#f5f5f5;padding:4px 12px;width:fit-content;letter-spacing:3px;border:1px dashed #e5e5e5}.message{text-align:start;background:#f5f5f5;margin:8px;padding:8px;border-left:3px solid #002de3}pre{margin:0;line-height:normal;font-family:inherit}</style></head><body class='body'><h1 class='title'>^site_title</h1><div class='main'>",
 	'email_footer' => "<br><p>Thank you,<br>^site_title<br>^site_url</p></div></body></html>",
 
-	'a_commented_body' => "<p>Your answer on ^site_title has a new comment by <strong>^c_handle</strong>:</p><div class='message'><pre>^c_content</pre></div><p>Your answer was:</p><div class='message'><pre>^c_context</pre></div><p>You may respond by adding your own comment:</p><p><a class='btn' href='^url'>Reply</a></p>",
-	'a_commented_subject' => 'Your ^site_title answer has a new comment',
+	'a_commented_body' => "<p>^site_title তে আপনার উত্তরে নতুন একটি মন্তব্য এসেছে <strong>^c_handle</strong>:</p><div class='message'><pre>^c_content</pre></div><p>আপনার দেওয়া উত্তরটি ছিলো:</p><div class='message'><pre>^c_context</pre></div><p>আপনি চাইলে নিজে মন্তব্য করে তার জবাব দিতে পারেন:</p><p><a class='btn' href='^url'>জবাব দিন</a></p>",
+	'a_commented_subject' => '^site_title তে আপনার উত্তরে একজন মন্তব্য করেছে',
 
-	'a_followed_body' => "<p>Your answer on ^site_title has a new related question by <strong>^q_handle</strong>:</p><p><strong>^q_title</strong></p><p>Your answer was:</p><div class='message'><pre>^a_content</pre></div><p>Click below to answer the new question:</p><p><a class='btn' href='^url'>Answer new question</a></p>",
+	'a_followed_body' => "<p> ^site_title তে আপনার উত্তরের পরিপেক্ষিতে আরেকটি সম্পর্কিত প্রশ্ন করেছেন <strong>^q_handle</strong>:</p><p><strong>^q_title</strong></p><p>আপনার উত্তরটি ছিল:</p><div class='message'><pre>^a_content</pre></div><p>Click below to answer the new question:</p><p><a class='btn' href='^url'>Answer new question</a></p>",
 	'a_followed_subject' => 'Your ^site_title answer has a related question',
 
 	'a_selected_body' => "<p>Congratulations! Your answer on ^site_title has been selected as the best by <strong>^s_handle</strong>:</p><p><strong>^q_title</strong></p><div class='message'><pre>^a_content</pre></div><p><a class='btn' href='^url'>See your answer</a></p>",
